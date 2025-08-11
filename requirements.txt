@@ -7,3 +7,4 @@ python-telegram-bot>=13.15
 nsetools>=1.0.11
 pandas>=1.5
 beautifulsoup4>=4.12
+gunicorn
