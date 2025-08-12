@@ -103,7 +103,7 @@ def schedule_jobs():
     logger.info("Scheduler started with opening=%s closing=%s", SCHEDULE_OPENING, SCHEDULE_CLOSE)
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     schedule_jobs()
     # For dev run
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
